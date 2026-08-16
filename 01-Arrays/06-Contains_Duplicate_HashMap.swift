@@ -1,0 +1,54 @@
+/*
+Problem: Contains Duplicate
+Topic: Arrays
+Difficulty: Easy
+Pattern:Hash Map
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+ Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+# Example 1:
+ Input: nums = [1,2,3,1]
+ Output: true
+ 
+ Explanation:
+ The element 1 occurs at the indices 0 and 3.
+ 
+# Example 2:
+ Input: nums = [1,2,3,4]
+ Output: false
+
+ Explanation:
+ All elements are distinct.
+ 
+# Example 3:
+ Input: nums = [1,1,1,3,3,4,3,2,4,2]
+ Output: true
+ 
+# Constraints:
+ 1 <= nums.length <= 105
+ -109 <= nums[i] <= 109
+*/
+
+func containsDuplicate(_ nums: [Int]) -> Bool {
+    var map = [Int:Int]()
+    for (index, value) in nums.enumerated() {
+        if let _ = map[value] {
+            return true
+        } else {
+            map[value] = index
+        }
+    }
+    return false
+}
+
+let result1: Bool = containsDuplicate([1,2,3,1])
+print("result1 = \(result1): expected true")
+
+let result2: Bool = containsDuplicate([1,2,3,4])
+print("result1 = \(result2): expected false")
+
+let result3: Bool = containsDuplicate([1,1,1,3,3,4,3,2,4,2])
+print("result1 = \(result3): expected true")
