@@ -4,8 +4,8 @@
  Pattern: Kadanes Algoritham
  Leetcode: https://leetcode.com/problems/maximum-subarray/description/
 
- Time Complexity:
- Space Complexity:
+ Time Complexity: O(n)
+ Space Complexity: O(1)
  
  Given an integer array nums, find the subarray with the largest sum, and return its sum.
  
