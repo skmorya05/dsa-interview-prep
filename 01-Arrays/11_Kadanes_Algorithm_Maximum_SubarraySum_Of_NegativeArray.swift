@@ -27,8 +27,14 @@ func maxSubArray(_ nums: [Int]) -> Int {
     var currentSum = first
     var maxSum = first
     for i in 1..<nums.count {
-        currentSum = max(nums[i], currentSum + nums[i])
-        maxSum = max(maxSum, currentSum)
+        if currentSum + nums[i] > nums[i] {
+            currentSum = currentSum + nums[i]
+        } else {
+            currentSum = nums[i]
+        }
+        if currentSum > maxSum {
+            maxSum = currentSum
+        }
     }
     return maxSum
 }
