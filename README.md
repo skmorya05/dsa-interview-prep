@@ -56,17 +56,17 @@ Binary Search
 
 ### Important Problems
 
-- [ ] Two Sum ⭐
-- [ ] Best Time to Buy and Sell Stock ⭐
-- [ ] Contains Duplicate
-- [ ] Maximum Subarray ⭐
-- [ ] Move Zeroes
-- [ ] Product of Array Except Self ⭐
-- [ ] Maximum Product Subarray
-- [ ] 3Sum ⭐
-- [ ] Subarray Sum Equals K ⭐
-- [ ] Trapping Rain Water ⭐
-- [ ] First Missing Positive
+- [x] Two Sum ⭐
+- [x] Best Time to Buy and Sell Stock ⭐
+- [x] Contains Duplicate
+- [x] Maximum Subarray ⭐
+- [x] Move Zeroes
+- [x] Product of Array Except Self ⭐
+- [x] Maximum Product Subarray
+- [x] 3Sum ⭐
+- [x] Subarray Sum Equals K ⭐
+- [x] Trapping Rain Water ⭐
+- [x] First Missing Positive
 
 ---
 
