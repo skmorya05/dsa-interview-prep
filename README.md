@@ -80,8 +80,8 @@ Binary Search
 
 ### Important Problems
 
-- [ ] Valid Anagram ⭐
-- [ ] Valid Palindrome
+- [x] Valid Anagram ⭐
+- [x] Valid Palindrome
 - [ ] Isomorphic Strings
 - [ ] First Unique Character
 - [ ] Ransom Note
